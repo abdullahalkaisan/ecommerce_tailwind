@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commarce tailwind</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+<body>
+
+
+
+    <div class="container  mx-auto flex justify-between">
+
+        <div>
+            <p class="text-gray-600 py-3 flex items-center">
+                <i data-lucide="map-pin" class="mr-2"></i>
+                <span>
+                    Store Location: Lincoln- 344, Illinois, Chicago, USA
+                </span>
+            </p>
+        </div>
+
+
+
+        <div>
+
+            <div class="navbar bg-base-100">
+
+
+
+                <div class="hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-gray-600">
+                    <li>
+                      <details>
+                        <summary>Eng</summary>
+                        <ul class="p-2">
+                          <li><a>Japanese</a></li>
+                          <li><a>Spanish</a></li>
+                        </ul>
+                      </details>
+                    </li>
+                    <li>
+                        <details>
+                          <summary>USD</summary>
+                          <ul class="p-2">
+                            <li><a>Taka</a></li>
+                            <li><a>Euro</a></li>
+                          </ul>
+                        </details>
+                      </li>
+
+                    <li>
+                        <a>Sign In / Sign Up</a> 
+                    </li>
+                  </ul>
+                </div>
+
+
+
+              </div>
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+    <div class="container mx-auto flex justify-between">
+
+      <div>
+        <img class="cursor-pointer" src="https://i.ibb.co.com/m9CvsCQ/Logo-8.png" alt="logo">
+      </div>
+
+      <!-- search container -->
+      <div class="w-1/3">
+        <div class="flex ">
+          <div class="flex  flex-1 items-center border border-gray-300 rounded-l-lg">
+            <i data-lucide="search" class="h-5 w-5 text-gray-500 ml-4 mr-2"></i>
+            <input class="outline-none border-none text-[15px] w-full" type="text" placeholder="Search">
+          </div>
+            <button class="bg-[#00b207] hover:bg-[#1b9920] transition duration-300 text-white py-[14px] px-[24px] font-semibold rounded-r-lg ">Search</button>
+        </div>
+      </div>
+
+      <!-- menu  -->
+      <div>
+        <div class="flex items-center">
+          <button class="btn btn-circle bg-transparent ">
+            <i data-lucide="heart" class="size-8"></i>
+          </button>
+          <div class="h-8 w-[2px] bg-gray-300 mx-4"></div>
+          <button class="btn bg-transparent border-none">
+              <div class="relative mr-2">
+                <i data-lucide="shopping-cart" class="size-8"></i>
+                <div class="badge absolute top-0  w-5 h-5  bg-green-700 text-white">2</div>
+              </div>
+              <div class="flex flex-col items-start">
+                <span class="text-gray-700 text-sm ">Shopping cart:</span>
+                <span class="font-bold text-sm">$57.00</span>
+              </div>
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="bg-stone-800 text-white my-6 py-[19.5px]">
+      <div class="container mx-auto flex justify-between">
+        <!-- menu  -->
+        <div>
+          <ul class="menu menu-horizontal px-1 py-0 my-0 text-gray-400 font-medium">
+            <li class="text-white">
+              <details>
+                <summary>Home</summary>
+                <ul class="p-2">
+                  <li><a>Japanese</a></li>
+                  <li><a>Spanish</a></li>
+                </ul>
+              </details>
+            </li>
+            <li>
+                <details>
+                  <summary>Shop</summary>
+                  <ul class="p-2">
+                    <li><a>Taka</a></li>
+                    <li><a>Euro</a></li>
+                  </ul>
+                </details>
+              </li>
+
+              <li>
+                <details>
+                  <summary>Pages</summary>
+                  <ul class="p-2">
+                    <li><a>Taka</a></li>
+                    <li><a>Euro</a></li>
+                  </ul>
+                </details>
+              </li>
+
+              <li>
+                <details>
+                  <summary>Blog</summary>
+                  <ul class="p-2">
+                    <li><a>Taka</a></li>
+                    <li><a>Euro</a></li>
+                  </ul>
+                </details>
+              </li>
+
+              <li>
+                  <summary>About Us</summary>
+              </li>
+
+              <li>
+                  <summary>Contact Us</summary>
+              </li>
+
+          </ul>
+        </div>
+
+
+          <!-- call  -->
+          <div class="flex items-center space-x-3">
+            <i data-lucide="phone-call"></i>
+            <p>(219) 555-0114</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- BANNAR  -->
+    <div class="container mx-auto ">
+      <div class="grid  gap-6 md:grid-cols-3">
+        
+          <div class="relative overflow-hidden md:col-span-2 rounded-lg">
+
+            <div class="absolute flex flex-col justify-center bg-gradient-to-r from-[#00000090] to-transparent pl-[60px] w-full h-full ">
+              <h1 class="text-white text-[72px] font-bold w-[70%] leading-none">Fresh & Healthy
+                Organic Food</h1>
+
+                <div class="my-[28px] mt-10 border-l-2 border-green-300 pl-4">
+                  <h4 class="text-white text-xl font-bold">Sale up to <span class="bg-orange-500 px-3 py-1 rounded-lg">30% OFF</span></h4>
+                  <p class="text-gray-300 text-lg mt-3">Free shipping on all your order.</p>
+                </div>
+
+
+
+                <div>
+                  <button class="bg-white text-green-600 text-lg font-bold rounded-full py-4 px-10 flex items-center">
+                      Shop now
+                      <i data-lucide="move-right" class="ml-4"></i>
+                  </button>
+                </div>
+
+            </div>
+
+            <img class="pointer-events-none h-full w-full object-cover" src="https://i.ibb.co.com/jHbY9VS/Bannar-Big.png" alt="bannar">
+          </div>
+
+          <div class="grid gap-6 ">
+
+
+            <div class="relative rounded-lg overflow-hidden">
+                <div class="absolute h-full w-full space-y-2 pl-8 pt-8">
+
+                  <h4 class="uppercase font-semibold">Summer Sale</h4>
+                  <h1 class="text-3xl font-bold">75% OFF</h1>
+                  <p class="text-gray-500">Only Fruit & Vegetable</p>
+                  <div>
+                    <button class=" text-green-600 text-lg font-bold rounded-full py-4  flex items-center">
+                        Shop now
+                        <i data-lucide="move-right" class="ml-4"></i>
+                    </button>
+                  </div>
+                </div>
+              <img class="pointer-events-none h-full w-full object-cover" src="https://i.ibb.co.com/h9L3nfr/BG.png" alt="bannar">
+            </div>
+
+            <div class="relative rounded-lg">
+                <div class="absolute text-white flex flex-col justify-center items-center h-full w-full ">
+                  <h4 class="uppercase text-lg font-semibold">Best Deal</h4>
+                  <h1 class="font-bold text-[36px] w-[70%] text-center">Special Products Deal of the Month</h1>
+                  <div>
+                    <button class=" text-green-600 text-lg font-bold rounded-full py-4  flex items-center">
+                        Shop now
+                        <i data-lucide="move-right" class="ml-4"></i>
+                    </button>
+                  </div>
+                </div>
+              <img class="pointer-events-none h-full w-full object-cover" src="https://i.ibb.co.com/cD0Qrfx/BG-1.png" alt="bannar">
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+
+    <div class="container mx-auto mt-6 mb-[60px]">
+
+
+      <div class="flex justify-evenly p-10 ">
+        <div class="flex items-center">
+          <div><i data-lucide="truck" class=" size-10 text-green-600 mr-4"></i></div>
+          <div>
+            <h6 class="font-bold text-lg">Free Shipping</h6>
+            <p class="text-gray-500">Free shipping on all your order</p>
+          </div>
+        </div>
+
+        <div class="flex items-center">
+          <div><i data-lucide="circle-help" class=" size-10 text-green-600 mr-4"></i></div>
+          <div>
+            <h6 class="font-bold text-lg">Customer Support 24/7</h6>
+            <p class="text-gray-500">Instant access to Support</p>
+          </div>
+        </div>
+
+        <div class="flex items-center">
+          <div><i data-lucide="shopping-cart" class=" size-10 text-green-600 mr-4"></i></div>
+          <div>
+            <h6 class="font-bold text-lg">100% Secure Payment</h6>
+            <p class="text-gray-500">We ensure your money is save</p>
+          </div>
+        </div>
+
+        <div class="flex items-center">
+          <div><i data-lucide="shield-check" class=" size-10 text-green-600 mr-4"></i></div>
+          <div>
+            <h6 class="font-bold text-lg">Money-Back Guarantee</h6>
+            <p class="text-gray-500">30 Days Money-Back Guarantee</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+    <!-- popular category  -->
+
+    <div class="container mx-auto">
+
+
+      <!-- title -->
+      <div class="flex w-full justify-between items-center mb-[32px]">
+        <h1 class="font-semibold text-[36px]">Popular Categories</h1>
+        <div>
+          <button class=" text-green-600 text-lg font-bold rounded-full py-4  flex items-center">
+              View All
+              <i data-lucide="move-right" class="ml-4"></i>
+          </button>
+        </div>
+      </div>
+
+
+      <!-- wrapper  -->
+      <div class="mb-[60px]  flex flex-wrap gap-6 justify-center">
+      
+        <div class="h-[200px] w-[200px] ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2 flex flex-col justify-center items-center rounded-lg border text-center border-gray-200">
+          <div><img src="https://i.ibb.co.com/hcZ77vK/image-1.png" alt="product"></div>
+          <h4 class="text-[18px] mt-2 font-medium">Fresh Fruit</h4>
+        </div>
+        <div
+          class="h-[200px] w-[200px] ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2  flex flex-col justify-center items-center rounded-lg border text-center border-gray-200">
+          <div><img src="https://i.ibb.co.com/hcZ77vK/image-1.png" alt="product"></div>
+          <h4 class="text-[18px] mt-2 font-medium">Fresh Fruit</h4>
+        </div>
+        <div
+          class="h-[200px] w-[200px] ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2  flex flex-col justify-center items-center rounded-lg border text-center border-gray-200">
+          <div><img src="https://i.ibb.co.com/hcZ77vK/image-1.png" alt="product"></div>
+          <h4 class="text-[18px] mt-2 font-medium">Fresh Fruit</h4>
+        </div>
+        <div
+          class="h-[200px] w-[200px] ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2  flex flex-col justify-center items-center rounded-lg border text-center border-gray-200">
+          <div><img src="https://i.ibb.co.com/hcZ77vK/image-1.png" alt="product"></div>
+          <h4 class="text-[18px] mt-2 font-medium">Fresh Fruit</h4>
+        </div>
+        <div
+          class="h-[200px] w-[200px] ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2  flex flex-col justify-center items-center rounded-lg border text-center border-gray-200">
+          <div><img src="https://i.ibb.co.com/hcZ77vK/image-1.png" alt="product"></div>
+          <h4 class="text-[18px] mt-2 font-medium">Fresh Fruit</h4>
+        </div>
+        <div
+          class="h-[200px] w-[200px] ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2  flex flex-col justify-center items-center rounded-lg border text-center border-gray-200">
+          <div><img src="https://i.ibb.co.com/hcZ77vK/image-1.png" alt="product"></div>
+          <h4 class="text-[18px] mt-2 font-medium">Fresh Fruit</h4>
+        </div>
+        <div
+          class="h-[200px] w-[200px] ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2  flex flex-col justify-center items-center rounded-lg border text-center border-gray-200">
+          <div><img src="https://i.ibb.co.com/hcZ77vK/image-1.png" alt="product"></div>
+          <h4 class="text-[18px] mt-2 font-medium">Fresh Fruit</h4>
+        </div>
+        <div
+          class="h-[200px] w-[200px] ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2  flex flex-col justify-center items-center rounded-lg border text-center border-gray-200">
+          <div><img src="https://i.ibb.co.com/hcZ77vK/image-1.png" alt="product"></div>
+          <h4 class="text-[18px] mt-2 font-medium">Fresh Fruit</h4>
+        </div>
+        <div
+          class="h-[200px] w-[200px] ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2  flex flex-col justify-center items-center rounded-lg border text-center border-gray-200">
+          <div><img src="https://i.ibb.co.com/hcZ77vK/image-1.png" alt="product"></div>
+          <h4 class="text-[18px] mt-2 font-medium">Fresh Fruit</h4>
+        </div>
+        <div
+          class="h-[200px] w-[200px] ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2  flex flex-col justify-center items-center rounded-lg border text-center border-gray-200">
+          <div><img src="https://i.ibb.co.com/hcZ77vK/image-1.png" alt="product"></div>
+          <h4 class="text-[18px] mt-2 font-medium">Fresh Fruit</h4>
+        </div>
+        <div
+          class="h-[200px] w-[200px] ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2  flex flex-col justify-center items-center rounded-lg border text-center border-gray-200">
+          <div><img src="https://i.ibb.co.com/hcZ77vK/image-1.png" alt="product"></div>
+          <h4 class="text-[18px] mt-2 font-medium">Fresh Fruit</h4>
+        </div>
+        <div
+          class="h-[200px] w-[200px] ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2  flex flex-col justify-center items-center rounded-lg border text-center border-gray-200">
+          <div><img src="https://i.ibb.co.com/hcZ77vK/image-1.png" alt="product"></div>
+          <h4 class="text-[18px] mt-2 font-medium">Fresh Fruit</h4>
+        </div>
+      
+      </div>
+    </div>
+
+
+
+    <!-- popular products  -->
+
+    <div class="container mx-auto mb-[60px]">
+      <!-- title -->
+      <div class="flex w-full justify-between items-center mb-[32px]">
+        <h1 class="font-semibold text-[36px]">Popular Products</h1>
+        <div>
+          <button class=" text-green-600 text-lg font-bold rounded-full py-4  flex items-center">
+              View All
+              <i data-lucide="move-right" class="ml-4"></i>
+          </button>
+        </div>
+      </div>
+
+
+      <!-- wrapper  -->
+      <div class="grid grid-cols-5">
+
+
+          <div class="flex relative flex-col border h-[327px] p-3 group ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2">
+            <span class="absolute bg-[#EA4B48] text-white w-fit py-[3px] px-2 rounded-lg">Sale 50%</span>
+            <div>
+              <img src="https://i.ibb.co.com/rGC88bz/Image.png" alt="product">
+            </div>
+            <!-- text  -->
+            <div class="flex justify-between">
+              <div>
+                <h4 class="text-[14px] text-[#4D4D4D]">Green Apple</h4>
+                <h3 class="text-[16px] font-medium">$10.99 <span class="line-through text-gray-400">$20.99</span></h4>
+                  <div class="flex size-16 text-[#FF8A00]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-[#CCCCCC]">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+              </div>
+              <div class="bg-[#F2F2F2] h-[40px] w-[40px] flex items-center justify-center rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col border h-[327px] p-3 ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2">
+            <div>
+              <img src="https://i.ibb.co.com/rGC88bz/Image.png" alt="product">
+            </div>
+            <!-- text  -->
+            <div class="flex justify-between">
+              <div>
+                <h4 class="text-[14px] text-[#4D4D4D]">Green Apple</h4>
+                <h3 class="text-[16px] font-medium">$10.99 <span class="line-through text-gray-400">$20.99</span></h4>
+                  <div class="flex size-16 text-[#FF8A00]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-[#CCCCCC]">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+              </div>
+              <div class="bg-[#F2F2F2] h-[40px] w-[40px] flex items-center justify-center rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col border h-[327px] p-3 ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2">
+            <div>
+              <img src="https://i.ibb.co.com/rGC88bz/Image.png" alt="product">
+            </div>
+            <!-- text  -->
+            <div class="flex justify-between">
+              <div>
+                <h4 class="text-[14px] text-[#4D4D4D]">Green Apple</h4>
+                <h3 class="text-[16px] font-medium">$10.99 <span class="line-through text-gray-400">$20.99</span></h4>
+                  <div class="flex size-16 text-[#FF8A00]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-[#CCCCCC]">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+              </div>
+              <div class="bg-[#F2F2F2] h-[40px] w-[40px] flex items-center justify-center rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col border h-[327px] p-3 ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2">
+            <div>
+              <img src="https://i.ibb.co.com/rGC88bz/Image.png" alt="product">
+            </div>
+            <!-- text  -->
+            <div class="flex justify-between">
+              <div>
+                <h4 class="text-[14px] text-[#4D4D4D]">Green Apple</h4>
+                <h3 class="text-[16px] font-medium">$10.99 <span class="line-through text-gray-400">$20.99</span></h4>
+                  <div class="flex size-16 text-[#FF8A00]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-[#CCCCCC]">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+              </div>
+              <div class="bg-[#F2F2F2] h-[40px] w-[40px] flex items-center justify-center rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col border h-[327px] p-3 ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2">
+            <div>
+              <img src="https://i.ibb.co.com/rGC88bz/Image.png" alt="product">
+            </div>
+            <!-- text  -->
+            <div class="flex justify-between">
+              <div>
+                <h4 class="text-[14px] text-[#4D4D4D]">Green Apple</h4>
+                <h3 class="text-[16px] font-medium">$10.99 <span class="line-through text-gray-400">$20.99</span></h4>
+                  <div class="flex size-16 text-[#FF8A00]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-[#CCCCCC]">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+              </div>
+              <div class="bg-[#F2F2F2] h-[40px] w-[40px] flex items-center justify-center rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col border h-[327px] p-3 ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2">
+            <div>
+              <img src="https://i.ibb.co.com/rGC88bz/Image.png" alt="product">
+            </div>
+            <!-- text  -->
+            <div class="flex justify-between">
+              <div>
+                <h4 class="text-[14px] text-[#4D4D4D]">Green Apple</h4>
+                <h3 class="text-[16px] font-medium">$10.99 <span class="line-through text-gray-400">$20.99</span></h4>
+                  <div class="flex size-16 text-[#FF8A00]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-[#CCCCCC]">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+              </div>
+              <div class="bg-[#F2F2F2] h-[40px] w-[40px] flex items-center justify-center rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col border h-[327px] p-3 ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2">
+            <div>
+              <img src="https://i.ibb.co.com/rGC88bz/Image.png" alt="product">
+            </div>
+            <!-- text  -->
+            <div class="flex justify-between">
+              <div>
+                <h4 class="text-[14px] text-[#4D4D4D]">Green Apple</h4>
+                <h3 class="text-[16px] font-medium">$10.99 <span class="line-through text-gray-400">$20.99</span></h4>
+                  <div class="flex size-16 text-[#FF8A00]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-[#CCCCCC]">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+              </div>
+              <div class="bg-[#F2F2F2] h-[40px] w-[40px] flex items-center justify-center rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col border h-[327px] p-3 ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2">
+            <div>
+              <img src="https://i.ibb.co.com/rGC88bz/Image.png" alt="product">
+            </div>
+            <!-- text  -->
+            <div class="flex justify-between">
+              <div>
+                <h4 class="text-[14px] text-[#4D4D4D]">Green Apple</h4>
+                <h3 class="text-[16px] font-medium">$10.99 <span class="line-through text-gray-400">$20.99</span></h4>
+                  <div class="flex size-16 text-[#FF8A00]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-[#CCCCCC]">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+              </div>
+              <div class="bg-[#F2F2F2] h-[40px] w-[40px] flex items-center justify-center rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col border h-[327px] p-3 ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2">
+            <div>
+              <img src="https://i.ibb.co.com/rGC88bz/Image.png" alt="product">
+            </div>
+            <!-- text  -->
+            <div class="flex justify-between">
+              <div>
+                <h4 class="text-[14px] text-[#4D4D4D]">Green Apple</h4>
+                <h3 class="text-[16px] font-medium">$10.99 <span class="line-through text-gray-400">$20.99</span></h4>
+                  <div class="flex size-16 text-[#FF8A00]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-[#CCCCCC]">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+              </div>
+              <div class="bg-[#F2F2F2] h-[40px] w-[40px] flex items-center justify-center rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col border h-[327px] p-3 ring-green-600 hover:text-green-700 transition ease duration-300 cursor-pointer hover:ring-2">
+            <div>
+              <img src="https://i.ibb.co.com/rGC88bz/Image.png" alt="product">
+            </div>
+            <!-- text  -->
+            <div class="flex justify-between">
+              <div>
+                <h4 class="text-[14px] text-[#4D4D4D]">Green Apple</h4>
+                <h3 class="text-[16px] font-medium">$10.99 <span class="line-through text-gray-400">$20.99</span></h4>
+                  <div class="flex size-16 text-[#FF8A00]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-[#CCCCCC]">
+                      <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+              </div>
+              <div class="bg-[#F2F2F2] h-[40px] w-[40px] flex items-center justify-center rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+
+
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+
+
+</body>
+</html>
